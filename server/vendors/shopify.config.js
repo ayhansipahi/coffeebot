@@ -1,0 +1,6 @@
+module.exports = {
+  SHOPIFY_TOKEN: "0ba356dccd2c955e77367807b04f55f0",
+  SHOPIFY_STORE: "smstore-3",
+  SHOPIFY_PASS: "81f82598d20c00f4d16ea02e028638bc",
+  SHOPIFY_SECRET: "f096a88d90c6eab4c2c10dc4322873fe"
+};
