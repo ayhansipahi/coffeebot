@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .config(function($stateProvider) {
     $stateProvider
       .state('main', {

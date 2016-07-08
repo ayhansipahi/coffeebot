@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('smstoreApp', [
-  'smstoreApp.auth',
-  'smstoreApp.admin',
-  'smstoreApp.constants',
+angular.module('coffeebotApp', [
+  'coffeebotApp.auth',
+  'coffeebotApp.admin',
+  'coffeebotApp.constants',
   'ngCookies',
   'ngResource',
   'ngSanitize',

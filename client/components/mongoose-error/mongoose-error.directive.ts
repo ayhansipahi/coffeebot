@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .directive('mongooseError', function() {
     return {
       restrict: 'A',

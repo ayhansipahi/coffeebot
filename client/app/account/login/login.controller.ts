@@ -29,5 +29,5 @@ class LoginController {
   }
 }
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .controller('LoginController', LoginController);

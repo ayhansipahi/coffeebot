@@ -40,7 +40,7 @@ export default function(app) {
   app.set('views', config.root + '/server/views');
   app.set('view engine', 'jade');
   app.use(compression());
-  
+
   app.use(function(a,n,o){a.rawBody="",a.on("data",function(n){a.rawBody+=n}),o()});
   app.use(bodyParser.urlencoded({ extended: false }));
   app.use(bodyParser.json());
@@ -57,7 +57,7 @@ export default function(app) {
     resave: false,
     store: new MongoStore({
       mongooseConnection: mongoose.connection,
-      db: 'smstore'
+      db: 'coffeebot'
     })
   }));
 

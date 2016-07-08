@@ -16,7 +16,7 @@ class AdminController {
   }
 }
 
-angular.module('smstoreApp.admin')
+angular.module('coffeebotApp.admin')
   .controller('AdminController', AdminController);
 
 })();

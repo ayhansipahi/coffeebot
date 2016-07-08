@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('smstoreApp.admin', [
-  'smstoreApp.auth',
+angular.module('coffeebotApp.admin', [
+  'coffeebotApp.auth',
   'ui.router'
 ]);

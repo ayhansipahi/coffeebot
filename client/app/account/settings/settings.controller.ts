@@ -25,5 +25,5 @@ class SettingsController {
   }
 }
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .controller('SettingsController', SettingsController);

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .factory('Modal', function($rootScope, $uibModal) {
     /**
      * Opens a modal

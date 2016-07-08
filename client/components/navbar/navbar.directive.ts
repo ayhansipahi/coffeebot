@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .directive('navbar', () => ({
     templateUrl: 'components/navbar/navbar.html',
     restrict: 'E',

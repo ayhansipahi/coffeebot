@@ -14,9 +14,9 @@ const Shopify = require('shopify-api-node');
 const shopify = new Shopify(config.SHOPIFY_STORE, config.SHOPIFY_TOKEN, config.SHOPIFY_PASS);
 
 
-function shop() {};
+function Shop() {}
 
-shop.prototype.product = function() {
+Shop.prototype.product = function() {
     function _count() {
         shopify.product.count(3800276551)
             .then(data => console.log(data))
@@ -65,8 +65,8 @@ shop.prototype.product = function() {
 
 
 
-module.exports = shop;
+module.exports = Shop;
 
 
-var a = new shop();
+var a = new Shop();
 a.product().list();

@@ -26,7 +26,7 @@ function authInterceptor($rootScope, $q, $cookies, $injector, Util) {
   };
 }
 
-angular.module('smstoreApp.auth')
+angular.module('coffeebotApp.auth')
   .factory('authInterceptor', authInterceptor);
 
 })();

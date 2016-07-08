@@ -18,5 +18,5 @@ class NavbarController {
 
 }
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .controller('NavbarController', NavbarController);

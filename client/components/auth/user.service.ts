@@ -21,7 +21,7 @@ function UserResource($resource) {
   });
 }
 
-angular.module('smstoreApp.auth')
+angular.module('coffeebotApp.auth')
   .factory('User', UserResource);
 
 })();

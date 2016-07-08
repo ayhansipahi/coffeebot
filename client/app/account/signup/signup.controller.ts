@@ -39,5 +39,5 @@ class SignupController {
   }
 }
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .controller('SignupController', SignupController);

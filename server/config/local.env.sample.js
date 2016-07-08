@@ -7,7 +7,7 @@
 
 module.exports = {
   DOMAIN:           'http://localhost:9000',
-  SESSION_SECRET:   'smstore-secret',
+  SESSION_SECRET:   'coffeebot-secret',
 
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''

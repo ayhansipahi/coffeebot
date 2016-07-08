@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('smstoreApp.util', []);
+angular.module('coffeebotApp.util', []);

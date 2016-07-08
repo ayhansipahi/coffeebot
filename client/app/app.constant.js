@@ -1,5 +1,5 @@
 (function(angular, undefined) {
-  angular.module("smstoreApp.constants", [])
+  angular.module("coffeebotApp.constants", [])
 
 .constant("appConfig", {
 	"userRoles": [

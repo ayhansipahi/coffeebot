@@ -6,7 +6,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/smstore-dev'
+    uri: 'mongodb://localhost/coffeebot-dev'
   },
 
   // Seed database on startup

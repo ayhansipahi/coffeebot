@@ -233,7 +233,7 @@ gulp.task('inject:tsconfig', () => {
         `${clientPath}/**/!(*.spec|*.mock).ts`,
         `!${clientPath}/bower_components/**/*`,
         `typings/main.d.ts`
-    ], 
+    ],
     './tsconfig.client.json');
 });
 
@@ -242,7 +242,7 @@ gulp.task('inject:tsconfigTest', () => {
         `${clientPath}/**/+(*.spec|*.mock).ts`,
         `!${clientPath}/bower_components/**/*`,
         `typings/main.d.ts`
-    ], 
+    ],
     './tsconfig.client.test.json');
 });
 
@@ -571,7 +571,7 @@ gulp.task('build:client', ['styles', 'html', 'constant', 'build:images'], () => 
 gulp.task('html', function() {
     return gulp.src(`.tmp/{app,components}/**/*.html`)
         .pipe(plugins.angularTemplatecache({
-            module: 'smstoreApp'
+            module: 'coffeebotApp'
         }))
         .pipe(gulp.dest('.tmp'));
 });
@@ -584,7 +584,7 @@ gulp.task('jade', function() {
 gulp.task('constant', function() {
   let sharedConfig = require(`./${serverPath}/config/environment/shared`);
   return plugins.ngConstant({
-    name: 'smstoreApp.constants',
+    name: 'coffeebotApp.constants',
     deps: [],
     wrap: true,
     stream: true,

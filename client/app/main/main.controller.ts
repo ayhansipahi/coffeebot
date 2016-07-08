@@ -33,7 +33,7 @@ class MainController {
   }
 }
 
-angular.module('smstoreApp')
+angular.module('coffeebotApp')
   .component('main', {
     templateUrl: 'app/main/main.html',
     controller: MainController
