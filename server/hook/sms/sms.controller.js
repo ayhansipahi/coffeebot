@@ -37,6 +37,9 @@ function received(req, res) {
   sms.reply(req, res, text);
 }).catch(helper.handleError(res))
 }
+
+
+
 export function create(req, res) {
   switch (req.body.SmsStatus) {
     case "sent":

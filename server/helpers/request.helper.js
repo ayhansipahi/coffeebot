@@ -1,6 +1,3 @@
-/**
- * Created by Ayhan on 13.07.2016.
- */
 module.exports = {
   saveUpdates: function(updates) {
     return function(entity) {
